@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1200px) {
+    .couponCard {
+        &__sale-text {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        &__info-text {
+            font-size: 12px;
+        }
+
+        &__price-text {
+            font-size: 24px;
+        }
+    }
+
+    .address {
+        &__card-btn a {
+            padding: .5rem 1rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .couponCard {
+        &__sale-text {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        &__info-text {
+            font-size: 12px;
+        }
+
+        &__price-text {
+            font-size: 22px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .couponCard {
+        &__sale-text {
+            width: 15rem;
+            font-size: 2rem;
+        }
+
+        &__info-text {
+            font-size: 26px;
+        }
+
+        &__price-text {
+            font-size: 4rem;
+        }
+    }
+
+    .address {
+        margin-top: 3rem;
+
+        &__card {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .couponCard {
+        &__sale-text {
+            width: 15rem;
+            font-size: 100%;
+        }
+
+        &__info-text {
+            font-size: 100%;
+        }
+
+        &__price-text {
+            font-size: 150%;
+        }
+    }
+}

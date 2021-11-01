@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deirvlon Technologies">
+    <meta name="keywords" content="Deirvlon Technologies">
+    <meta name="author" content="Deirvlon Technologies">
+
+    <title>Deirvlon Technologies Task</title>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="library/bootstrap-5.1.0-dist/bootstrap-5.1.0-dist/css/bootstrap.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container-lg my-4">
+        <div class="row">
+
+            <!-- Left Section -->
+            <div class="col-md-4">
+
+                <!-- Menu Card -->
+                <div class="menuCard">
+                    <ul class="menuCard__list">
+                        <li class="menuCard__item">
+                            <a href="#" class="menuCard__link">
+                                <i class="menuCard__icon"><img src="icon/book.svg" alt="Icon Book"></i>
+                                Sifariş tarixçəsi
+                            </a>
+                        </li>
+                        <li class="menuCard__item">
+                            <a href="#" class="menuCard__link">
+                                <i class="menuCard__icon"><img src="icon/heart.svg" alt="Icon Book"></i>
+                                Bəyənilənlər
+                            </a>
+                        </li>
+                        <li class="menuCard__item">
+                            <a href="#" class="menuCard__link">
+                                <i class="menuCard__icon"><img src="icon/cart.svg" alt="Icon Book"></i>
+                                Səbətim
+                            </a>
+                        </li>
+                        <li class="menuCard__item">
+                            <a href="#" class="menuCard__link">
+                                <i class="menuCard__icon"><img src="icon/person.svg" alt="Icon Book"></i>
+                                Hesab məlumatları
+                            </a>
+                        </li>
+                        <li class="menuCard__item">
+                            <a href="#" class="menuCard__link">
+                                <i class="menuCard__icon"><img src="icon/card.svg" alt="Icon Book"></i>
+                                Kartlarım
+                            </a>
+                        </li>
+                        <li class="menuCard__item">
+                            <a href="#" class="menuCard__link">
+                                <i class="menuCard__icon"><img src="icon/location.svg" alt="Icon Book"></i>
+                                Ünvan məlumatlarım
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Cupon Card 1 -->
+                <!--
+                <div class="cuponCard">
+                    <img src="icon/coupon.svg" class="cuponCard__img" alt="Coupon">
+                    <div class="cuponCard__sale">
+                        <p class="cuponCard__sale-text">25% Endirim</p>
+                    </div>
+                    <div class="cuponCard__info">
+                        <p class="cuponCard__info-text">31 Avqustdan <br> 2 Sentyabra qədər <br> 8:00 PM</p>
+                    </div>
+                    <div class="cuponCard__price">
+                        <p class="cuponCard__price-text">250</p>
+                    </div>
+                </div>
+                -->
+
+                <!-- Coupon Card 2 -->
+                <div class="couponCard">
+                    <img src="icon/coupon.svg" alt="Coupon" class="couponCard__img">
+
+                    <!-- Coupon Card Left -->
+                    <div class="couponCard__left">
+                        <div class="couponCard__sale">
+                            <p class="couponCard__sale-text">25% Endirim</p>
+                        </div>
+                    </div>
+
+                    <!-- Coupon Card Right -->
+                    <div class="couponCard__right">
+                        <div class="couponCard__info">
+                            <p class="couponCard__info-text">31 Avqustdan <br> 2 Sentyabra qədər <br> 8:00 PM</p>
+                        </div>
+                        <div class="couponCard__price">
+                            <p class="couponCard__price-text">250</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coupon Card 3 -->
+                <!--
+                <div class="couponCard">
+                    <img src="icon/coupon.svg" alt="Coupon" class="couponCard__img">
+                </div>
+                -->
+
+            </div>
+
+
+            <!-- Right Section -->
+            <div class="col-md-8">
+
+                <!-- Address Section -->
+                <div class="address">
+                    <div class="accordion accordion-flush address__accordion" id="accordionFlush">
+                        <div class="accordion-item address__item">
+                            <h2 class="accordion-header address__header" id="flush-headingOne">
+                                <button class="accordion-button collapsed address__accordion-btn" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Ünvan məlumatları
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse show address__collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
+                                <div class="accordion-body address__body">
+                                    <div class="row address__body--between">
+
+                                        <div class="col-md-4">
+                                            <div class="card address__card">
+                                                <div class="address__card-header">
+                                                    <span class="address__card-exit">
+                                                        <i class="fas fa-times"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="address__card-body">
+                                                    <h5 class="address__card-title">Kamala Rahimli</h5>
+                                                    <p class="address__card-text">
+                                                        <span class="addrecc__card-text--city">Bakı şəhəri</span>
+                                                        <br>
+                                                        <span class="addrecc__card-text--distrcit">Nizami rayonu</span>
+                                                        <br>
+                                                        <span class="addrecc__card-text--street">Küçə, bina, blok,<br> mənzil, mərtəbə</span>
+                                                    </p>
+                                                    <div class="address__card-btn">
+                                                        <a href="#" class="btn">Ünvanı Düzənlə</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="card address__card">
+                                                <div class="address__card-header">
+                                                    <span class="address__card-exit">
+                                                        <i class="fas fa-times"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="address__card-body">
+                                                    <h5 class="address__card-title">Kamala Rahimli</h5>
+                                                    <p class="address__card-text">
+                                                        <span class="addrecc__card-text--city">Bakı şəhəri</span>
+                                                        <br>
+                                                        <span class="addrecc__card-text--distrcit">Nizami rayonu</span>
+                                                        <br>
+                                                        <span class="addrecc__card-text--street">Küçə, bina, blok,<br> mənzil, mərtəbə</span>
+                                                    </p>
+                                                    <div class="address__card-btn">
+                                                        <a href="#" class="btn">Ünvanı Düzənlə</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="card address__card">
+                                                <div class="address__card-header">
+                                                    <span class="address__card-exit">
+                                                        <i class="fas fa-times"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="address__card-body">
+                                                    <h5 class="address__card-title">Kamala Rahimli</h5>
+                                                    <p class="address__card-text">
+                                                        <span class="addrecc__card-text--city">Bakı şəhəri</span>
+                                                        <br>
+                                                        <span class="addrecc__card-text--distrcit">Nizami rayonu</span>
+                                                        <br>
+                                                        <span class="addrecc__card-text--street">Küçə, bina, blok,<br> mənzil, mərtəbə</span>
+                                                    </p>
+                                                    <div class="address__card-btn">
+                                                        <a href="#" class="btn">Ünvanı Düzənlə</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="js/app.js"></script>
+
+    <!-- Bootstrap Script -->
+    <script src="library/bootstrap-5.1.0-dist/bootstrap-5.1.0-dist/js/bootstrap.js"></script>
+</body>
+
+</html>

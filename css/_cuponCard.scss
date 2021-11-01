@@ -1,0 +1,150 @@
+// Coupon Card 1 - only position absolute
+/*
+.cuponCard {
+    margin-top: 3rem;
+    position: relative;
+
+    box-shadow: 0px -6px 27px -10px rgba(179, 179, 179, 0.75);
+    -webkit-box-shadow: 0px -6px 27px -10px rgba(179, 179, 179, 0.75);
+    -moz-box-shadow: 0px -6px 27px -10px rgba(179, 179, 179, 0.75);
+
+    &__sale {
+         Responsivlik lazımdı 
+        position: absolute;
+        top: 65px;
+        left: -28px;
+        transform: rotate(90deg);
+
+        &-text {
+            color: #fff;
+            font-size: 22px;
+            font-family: Circe-Rounded-Bold;
+            margin: 0;
+        }
+    }
+
+    &__info {
+        position: absolute;
+        top: 76px;
+        left: 82px;
+
+        &-text {
+            color: #5D8CDA;
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+
+    &__price {
+        position: absolute;
+        bottom: 36px;
+        right: 60px;
+
+        &-text {
+            color: #fff;
+            font-size: 30px;
+            margin: 0;
+        }
+    }
+}
+*/
+
+
+// Coupon Card 2 - create div
+.couponCard {
+    margin-top: 3.7rem;
+    position: relative;
+
+    box-shadow: 0px -6px 27px -10px rgba(179, 179, 179, 0.75);
+    -webkit-box-shadow: 0px -6px 27px -10px rgba(179, 179, 179, 0.75);
+    -moz-box-shadow: 0px -6px 27px -10px rgba(179, 179, 179, 0.75);
+
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: calc(100% / 5);
+        height: 100%;
+
+        position: absolute;
+        top: 0;
+    }
+
+    &__right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: calc(100% - calc(100% / 5));
+        max-height: 100%;
+
+        position: absolute;
+        top: 40%;
+        bottom: 0;
+        right: 0;
+        transform: translate(5%, -6%);
+    }
+
+    &__sale {
+        transform: rotate(90deg);
+
+        &-text {
+            width: 122px;
+            margin: 0;
+
+            color: #fff;
+            font-size: 22px;
+            font-family: Circe-Rounded-Bold;
+        }
+    }
+
+    &__info {
+        &-text {
+            color: #5D8CDA;
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+
+    &__price {
+        margin-right: 27%;
+        margin-bottom: 3%;
+
+        &-text {
+            color: #fff;
+            font-size: 30px;
+            margin: 0;
+        }
+    }
+}
+
+
+// Coupon Card 3 - ::before ::after
+/*
+.couponCard {
+    margin-top: 3rem;
+    position: relative;
+
+    box-shadow: 0px -6px 27px -10px rgba(179, 179, 179, 0.75);
+    -webkit-box-shadow: 0px -6px 27px -10px rgba(179, 179, 179, 0.75);
+    -moz-box-shadow: 0px -6px 27px -10px rgba(179, 179, 179, 0.75);
+
+    &::before {
+        content: '25% Endirim';
+        position: absolute;
+        top: 40%;
+        left: -7%;
+        transform: rotate(90deg);
+
+        color: #fff;
+        font-size: 22px;
+        font-family: Circe-Rounded-Bold;
+    }
+}
+*/
