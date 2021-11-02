@@ -23,7 +23,6 @@ Here is a working live demo : https://humbatovqara.github.io/cargo-dashboard/ind
   - Responsive desing
 - Bootstrap 4
 - JavaScript (basic)
-<br />
 
 ## Launch
 ```
