@@ -21,7 +21,7 @@ Here is a working live demo : https://humbatovqara.github.io/cargo-dashboard/
   - BEM
   - Flexible Box
   - Responsive desing
-- Bootstrap 4
+- Bootstrap 5
 - JavaScript (basic)
 
 ## Launch
